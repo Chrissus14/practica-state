@@ -1,5 +1,5 @@
 import React from 'react';
 
-const AddContact = ({ event }) => <button onClick={event}>Agregar</button>;
+const AddContact = ({ event, name }) => <button onClick={event}>{name}</button>;
 
 export default AddContact;
